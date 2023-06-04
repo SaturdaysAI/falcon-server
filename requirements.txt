@@ -1,0 +1,7 @@
+huggingface_hub
+flask
+transformers
+einops
+accelerate
+flask
+gradio
