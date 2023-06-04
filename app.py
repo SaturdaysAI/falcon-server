@@ -33,6 +33,7 @@ def predict():
     try:
         params = data['parameters']
         parameters.update((k, v) for k, v in params.items() if k in parameters)
+        parameters['eos_token_id'] = tokenizer.eos_token_id
     except:
         pass
     try:
